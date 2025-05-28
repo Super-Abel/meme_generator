@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import './MemeGenerator.css'; // Assure-toi d'importer le fichier CSS
+import './MemeGenerator.css';
 
 const defaultLine = () => ({
   text: "",

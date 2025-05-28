@@ -8,9 +8,7 @@ function App() {
   const [galleryCount, setGalleryCount] = useState(0);
 
   useEffect(() => {
-    // Mettre à jour le nombre au démarrage
     updateGalleryCount();
-    // Écouter les changements de stockage (optionnel si on modifie localStorage ailleurs)
     window.addEventListener("storage", updateGalleryCount);
     return () => window.removeEventListener("storage", updateGalleryCount);
   }, []);

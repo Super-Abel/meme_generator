@@ -15,7 +15,7 @@ const MemeGallery = ({ onUpdate }) => {
     newGallery.splice(index, 1);
     setGallery(newGallery);
     localStorage.setItem("memeGallery", JSON.stringify(newGallery));
-    onUpdate?.(); // ✅ Notifie le parent si la fonction est passée
+    onUpdate?.();
   };
 
   const downloadMeme = (meme) => {

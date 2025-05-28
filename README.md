@@ -32,7 +32,7 @@ Bienvenue dans le projet **Générateur de Mèmes** ! Cette application vous per
 1. Clonez le dépôt :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/meme-generator.git
+   git clone https://github.com/Super-Abel/meme-generator.git
    ```
 
 2. Accédez au répertoire du projet :

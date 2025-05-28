@@ -1,0 +1,46 @@
+.container {
+    background: var(--card-bg);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  
+  .line-container {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  
+  .selected-line {
+    background: #f3f4f6;
+  }
+  
+  .input-text {
+    width: 70%;
+    margin-right: 8px;
+  }
+  
+  .canvas {
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    background: #222;
+    max-width: 100%;
+  }
+  
+  .button-group {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
